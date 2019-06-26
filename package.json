@@ -1,0 +1,40 @@
+{
+  "name": "azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "simple-oauth2": "1.5.0",
+    "@microsoft/microsoft-graph-client": "~0.4.0",
+    "request": "~2.79.0",
+    "joi": "~9.0.4",
+    "body-parser": "~1.15.2",
+    "express": "~4.14.0",
+    "express-boom": "~1.0.0",
+    "express-pino-logger": "~1.1.0",
+    "express-validation": "~1.0.1",
+    "dotenv": "8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raviteja64/node-azure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raviteja64/node-azure/issues"
+  },
+  "homepage": "https://github.com/raviteja64/node-azure#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-env": "2.4.1",
+    "babel-register": "6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
